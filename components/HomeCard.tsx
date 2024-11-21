@@ -7,6 +7,7 @@ const HomeCard = ({ item, onPress }) => (
       <View style={styles.info}>
         <Text style={styles.title}>{item.title}</Text>
         <Text style={styles.shortDescription}>{item.shortDescription}</Text>
+        <Text style={styles.category}>{item.category}</Text>
       </View>
     </TouchableOpacity>
   );
@@ -35,6 +36,10 @@ const HomeCard = ({ item, onPress }) => (
       fontSize: 14,
       color: '#555',
     },
+    category: {
+      marginTop: 5,
+      color: '#555'
+    }
   });
   
   export default HomeCard;
