@@ -4,7 +4,8 @@
     "slug": "project-hacker",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/images/earth.png",
+    "resizeMode": "cover",
     "userInterfaceStyle": "light",
     "newArchEnabled": true,
     "splash": {
@@ -23,6 +24,9 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "plugins": [
+      "expo-asset"
+    ]
   }
 }
